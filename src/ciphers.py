@@ -178,7 +178,7 @@ try:
     if args.raildecr:
         print("{} on railfence decryption with key {} = {}".format(*args.raildecr,railfence(*args.raildecr,"d")))
     if args.railencr:
-        print("{} on railfence encryption with key {} = {}".format(*args.railencr,railfence(*args.railencr,"d")))
+        print("{} on railfence encryption with key {} = {}".format(*args.railencr,railfence(*args.railencr,"e")))
 except ValueError:
     print("Key value must be an integer")
 except IndexError:
